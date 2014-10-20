@@ -1,0 +1,15 @@
+<snippet>
+	<content>
+<![CDATA[/**
+* Enqueue the parent style, the right way.
+*
+* @return null
+*/
+function namespaceplease_enqueue_stylesheets() {
+	wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
+}
+add_action( 'wp_enqueue_scripts', 'namespaceplease_enqueue_stylesheets' );]]>
+	</content>
+	<scope>source.php</scope>
+	<description>Enqueue Parent Stylesheet the Right Way</description>
+</snippet>
