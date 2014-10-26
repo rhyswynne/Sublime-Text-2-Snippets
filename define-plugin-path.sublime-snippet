@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+define('_PLUGIN_PATH',dirname(__FILE__));
+define('_PLUGIN_URL',plugins_url('', __FILE__));
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>PluginPath</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+	<description>Define Plugin Paths</description>
+</snippet>
