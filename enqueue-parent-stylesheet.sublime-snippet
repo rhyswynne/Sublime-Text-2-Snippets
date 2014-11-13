@@ -3,7 +3,7 @@
 <![CDATA[/**
 * Enqueue the parent style, the right way.
 *
-* @return null
+* @return void
 */
 function prefixplease_enqueue_stylesheets() {
 	wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
