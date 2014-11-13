@@ -11,6 +11,6 @@ Template:
 Tags:
 */
 ]]></content>
-	<scope>source.css</scope>
+	<scope>source.css, source.sass</scope>
 	<description>Child Theme Header</description>
 </snippet>
