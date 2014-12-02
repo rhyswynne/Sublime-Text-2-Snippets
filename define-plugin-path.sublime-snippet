@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
-define('_PLUGIN_PATH',dirname(__FILE__));
-define('_PLUGIN_URL',plugins_url('', __FILE__));
+define('${1:PREFIX_Name}_PLUGIN_PATH',dirname(__FILE__));
+define('$1_PLUGIN_URL',plugins_url('', __FILE__));
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>PluginPath</tabTrigger>
